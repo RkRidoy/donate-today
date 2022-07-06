@@ -88,7 +88,9 @@
     padding: 25px;
     margin-top: 20px;
 }
-
+.icon h3{
+    padding: 10px 0px;
+}
 section{
     display: flex;
     margin-top: 70px;
@@ -124,4 +126,9 @@ section{
     border: 1px solid #ff5959;
     border-radius: 5px;
     margin-top: 20px;
+}
+.image2{
+    width: 80%;
+    height: 400px;
+    padding-left: 80px;
 }
