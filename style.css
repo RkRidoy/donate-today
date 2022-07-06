@@ -51,6 +51,42 @@
     padding: 20px 300px;
     font-size: 20px;
 }
+.s-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 0px 300px;
+}
+.small-box{
+    width: 50px;
+    margin: 0 auto;
+    border: 1px solid #edf5f6;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #edf5f6;
+    color: black;
+    border-radius: 5px;
+}
+.small-box1{
+    width: 50px;
+    margin: 0 auto;
+    border: 1px solid #ff4040;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgba(255,0,0,0.3);
+    color: #fc0505;
+    border-radius: 5px;
+}
+#input{
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 500px;
+    margin-left: 380px;
+}
 .amount button{
     font-size: 20px;
     text-align: center;
@@ -131,4 +167,44 @@ section{
     width: 80%;
     height: 400px;
     padding-left: 80px;
+}
+
+
+form{
+    background-color: #f49595;
+    margin: 50px 300px 100px 300px;
+    padding: 80px 150px;
+    border: 1px solid #f49595;
+    border-radius: 5px;
+}
+.email{
+    width:250px;
+    border:1px solid white;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+}
+
+.button{
+    border:1px solid #fc0505;
+    border-radius: 0 5px 5px 0px;
+    padding: 5px 10px;
+    margin-left: -5px;
+    color: white;
+    background-color: #fc0505;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer h1{
+    color:#ff5959;   
+    font-family: 'Lobster', cursive;
+}
+
+footer p{
+    color: white;
 }
